@@ -63,4 +63,6 @@ p6df::modules::azure::home::symlink() {
 ######################################################################
 p6df::modules::azure::init() {
 
+  autoload -U +X bashcompinit && bashcompinit
+  source /usr/local/etc/bash_completion.d/az
 }
