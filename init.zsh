@@ -41,6 +41,20 @@ p6df::modules::azure::external::brew() {
 ######################################################################
 p6df::modules::azure::langs() {
 
+  az extension add --name account
+  az extension add --name alias
+  az extension add --name codespaces
+  az extension add --name connectedk8s
+  az extension add --name deploy-to-azure
+  az extension add --name deploy-to-aZure
+  az extension add --name dev-spaces
+  az extension add --name hack
+  az extension add --name k8sconfiguration
+  az extension add --name portal
+  az extension add --name subscription
+  az extension add --name vm-repair
+
+
 }
 
 ######################################################################
