@@ -52,6 +52,7 @@ p6df::modules::azure::langs() {
 ######################################################################
 p6df::modules::azure::home::symlink() {
 
+    ln -fs $P6_DFZ_SRC_DIR/$USER/home-private/azure .azure
 }
 
 ######################################################################
