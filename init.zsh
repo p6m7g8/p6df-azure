@@ -30,7 +30,6 @@ p6df::modules::azure::external::brew() {
   brew cask install azure-data-studio
   brew cask install microsoft-azure-storage-explorer
   brew cask install powershell
-  
 }
 
 ######################################################################
@@ -54,8 +53,6 @@ p6df::modules::azure::langs() {
   az extension add --name portal
   az extension add --name subscription
   az extension add --name vm-repair
-
-
 }
 
 ######################################################################
@@ -81,4 +78,20 @@ p6df::modules::azure::init() {
 
   autoload -U +X bashcompinit && bashcompinit
   source /usr/local/etc/bash_completion.d/az
+}
+
+p6df::prompt::azure::line() {
+
+  p6_azure_prompt_info
+}
+
+## XXX: move to p6azure
+p6_azure_prompt_info() {
+
+  local account_name=$(az account show -o tsv |awk -F"\t" '{ print $6 }')
+  if p6_string_blank "$account_name"; then
+    p6_return_void
+  else
+    p6_return_str "azure:  $account_name"
+  fi
 }
