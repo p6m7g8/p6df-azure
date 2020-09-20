@@ -80,12 +80,29 @@ p6df::modules::azure::init() {
   source /usr/local/etc/bash_completion.d/az
 }
 
+######################################################################
+#<
+#
+# Function: p6df::prompt::azure::line()
+#
+#>
+######################################################################
 p6df::prompt::azure::line() {
 
   p6_azure_prompt_info
 }
 
 ## XXX: move to p6azure
+######################################################################
+#<
+#
+# Function: str str = p6_azure_prompt_info()
+#
+#  Returns:
+#	str - str
+#
+#>
+######################################################################
 p6_azure_prompt_info() {
 
   local str
