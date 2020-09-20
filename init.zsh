@@ -108,7 +108,7 @@ p6_azure_prompt_info() {
               sts="sts:$diff"
           fi
 
-          str="azure:  _active:[$name - $user] [] () ($sts)"
+          str="azure:    _active:[$name - $user] [] () ($sts)"
       fi
   fi
 
