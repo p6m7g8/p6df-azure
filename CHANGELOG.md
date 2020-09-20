@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/p6m7g8/p6df-azure/compare/v1.0.1...v1.0.2) (2020-09-20)
+
+
+### Features
+
+* **prompt:** enables mvp prompt ([#6](https://github.com/p6m7g8/p6df-azure/issues/6)) ([ac47768](https://github.com/p6m7g8/p6df-azure/commit/ac4776854228c1ac89eeff2a2cc08eaa9bcb75f1))
+* **prompt:** remove remote api calls, use local files ([#7](https://github.com/p6m7g8/p6df-azure/issues/7)) ([795cd0b](https://github.com/p6m7g8/p6df-azure/commit/795cd0b478782e074d796cf9a07d3da314be1334))
+
+
+* **doc:** regens docs ([#9](https://github.com/p6m7g8/p6df-azure/issues/9)) ([edef8a0](https://github.com/p6m7g8/p6df-azure/commit/edef8a002e7dc1c151f616ebb65aef955425abd7))
+* **prompt:** indents more ([#8](https://github.com/p6m7g8/p6df-azure/issues/8)) ([73d1bf4](https://github.com/p6m7g8/p6df-azure/commit/73d1bf434fd8a8eb24f1ddf4aaf48c6ba1353e8a))
+
 ### 1.0.1 (2020-07-07)
 
 
