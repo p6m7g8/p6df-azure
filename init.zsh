@@ -15,7 +15,11 @@ p6df::modules::azure::version() { echo "0.0.1" }
 #
 #>
 ######################################################################
-p6df::modules::azure::deps() { ModuleDeps=() }
+p6df::modules::azure::deps() {
+  ModuleDeps=(
+    p6m7g8/p6common
+  )
+}
 
 ######################################################################
 #<
@@ -83,11 +87,11 @@ p6df::modules::azure::init() {
 ######################################################################
 #<
 #
-# Function: p6df::prompt::azure::line()
+# Function: p6df::modules::azure::prompt::line()
 #
 #>
 ######################################################################
-p6df::prompt::azure::line() {
+p6df::modules::azure::prompt::line() {
 
   p6_azure_prompt_info
 }
