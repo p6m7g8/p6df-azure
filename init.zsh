@@ -23,9 +23,9 @@ p6df::modules::azure::deps() {
 p6df::modules::azure::external::brew() {
 
   brew install azure-cli
-  brew cask install azure-data-studio
-  brew cask install microsoft-azure-storage-explorer
-  brew cask install powershell
+  brew install --cask azure-data-studio
+  brew install --cask microsoft-azure-storage-explorer
+  brew install --cask powershell
 }
 
 ######################################################################
@@ -42,7 +42,6 @@ p6df::modules::azure::langs() {
   az extension add --name codespaces
   az extension add --name connectedk8s
   az extension add --name deploy-to-azure
-  az extension add --name deploy-to-aZure
   az extension add --name dev-spaces
   az extension add --name hack
   az extension add --name k8sconfiguration
