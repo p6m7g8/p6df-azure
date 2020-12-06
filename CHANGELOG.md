@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/p6m7g8/p6df-azure/compare/v2.0.0...v2.1.0) (2020-12-06)
+
+
+### Features
+
+* **api:** centralize ::version() ([6e03175](https://github.com/p6m7g8/p6df-azure/commit/6e03175260e60dab9ad2b84f85a4e98d10bf959d))
+* **community:** adds CODE_OF_CONDUCT ([9a200ea](https://github.com/p6m7g8/p6df-azure/commit/9a200eadafa57f8f5938a43a80dbe23da6f5bfaf))
+* **github:** adds ISSUE_TEMPLATEs ([e3e6734](https://github.com/p6m7g8/p6df-azure/commit/e3e67345105d4471708b111d1f680bfe75b1eef9))
+
+
+### Bug Fixes
+
+* **langs:** remove dupe, cask -> --cask ([#19](https://github.com/p6m7g8/p6df-azure/issues/19)) ([1b6768a](https://github.com/p6m7g8/p6df-azure/commit/1b6768a398cb76be2365885f52cbe23c683ebbb9))
+
+
+* **community:** rely on the .github/ in the org ([#17](https://github.com/p6m7g8/p6df-azure/issues/17)) ([394e459](https://github.com/p6m7g8/p6df-azure/commit/394e45937fd32b245bb80aad450e58bf5ba89bc7))
+* **README:** fixes module expansion, adds CodeCov and Synk badges ([#18](https://github.com/p6m7g8/p6df-azure/issues/18)) ([3d14223](https://github.com/p6m7g8/p6df-azure/commit/3d14223fd7b2ee76817aeebd6e9ea21f707193b9))
+* **README:** updates to template v2.0 ([9e43e42](https://github.com/p6m7g8/p6df-azure/commit/9e43e42f6e5aa5424aafab48e913fdfa3370a559))
+* **semantic:** no longer needed, defaults are fine ([650480f](https://github.com/p6m7g8/p6df-azure/commit/650480f9d56686be8bfda44acd72c05a863cbc7d))
+
 ## [2.0.0](https://github.com/p6m7g8/p6df-azure/compare/v1.0.2...v2.0.0) (2020-10-11)
 
 
