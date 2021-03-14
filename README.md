@@ -38,9 +38,11 @@
 
 - [Change Log](CHANGELOG.md)
 
-### Usage
+## Usage
 
-#### init.zsh:
+### p6df-azure:
+
+#### p6df-azure/init.zsh:
 
 - p6df::modules::azure::deps()
 - p6df::modules::azure::external::brew()
